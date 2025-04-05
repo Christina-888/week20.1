@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link rel="stylesheet" href="./assets/style/style.css">
+  <link rel="shortcut icon" href="./assets/img/1.svg" type="image/svg">
+  <title>Star Wars Info</title>
+</head>
+
+<body>
+  <h1 class="title">Кого или что будем искать?</h1>
+  <form onsubmit="return false">
+    <select id="object">
+      <option value="people">Людей</option>
+      <option value="planets">Планеты</option>
+      <option value="films">Фильмы</option>
+    </select>
+    
+    <select id="number">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+    </select>
+
+    <button id="btn" class="button">Вперёд!</button>
+  </form>
+
+  <p class="answer"></p>
+  <p class="err-message"></p>
+  
+  <script src="./assets/script/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body {
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+#object, #number, #btn {
+  padding: 1%;
+  width: 12%;
+}
+
+.button {
+  background-color: brown;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+.err-message {
+  color: red;
+}
